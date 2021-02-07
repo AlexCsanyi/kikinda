@@ -1,0 +1,39 @@
+*, 
+::before, 
+::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
